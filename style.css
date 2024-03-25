@@ -13,6 +13,7 @@ body {
 
 header {
     font-size: 1.5rem;
+    margin-top: 15%;
 }
 
 header, 
@@ -52,6 +53,11 @@ form button:hover {
     margin-left: -8px;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .filter-todo{
     margin-top: none;
 }
@@ -73,7 +79,7 @@ form button:hover {
 }
 
 .error-div {
-    margin-top: 10px; 
+    text-align: center;
     color: rgb(255, 0, 0);
 }
 
